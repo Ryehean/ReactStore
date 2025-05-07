@@ -20,10 +20,10 @@ public class DbInitializer
     private static void SeedData(StoreContext context)
     {
         context.Database.Migrate();
-
+        
         if (context.Products.Any()) return;
 
-        var products = new List<Products>
+        var products = new List<Product>
         {
             new ()
             {

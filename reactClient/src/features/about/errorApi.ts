@@ -26,7 +26,7 @@ export const errorApi = createApi({
 export const {
     useLazyGet400ErrorQuery,
     useLazyGet401ErrorQuery,
-    useLazyGet404ErrorQuery,
     useLazyGet500ErrorQuery,
+    useLazyGet404ErrorQuery,
     useLazyGetValidationErrorQuery
 } = errorApi;
